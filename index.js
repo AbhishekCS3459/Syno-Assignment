@@ -11,7 +11,7 @@ require("dotenv").config();
 const PORT = process.env.PORT || 5000;
 
 // middleware
-app.use(cors({ origin: ["http://localhost:5173","https://syno-client.vercel.app"], credentials: true }));
+app.use(cors({ origin: ["http://localhost:5173","https://syno-client-qw4kzj7us-abhishekcs3459.vercel.app"], credentials: true }));
 app.use(cookieParser());
 app.use(express.json());
 app.use("/api", router);
